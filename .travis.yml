@@ -5,5 +5,6 @@ install:
   - pip install python-coveralls
 script:
   - python -m unittest tests
+  - python setup.py install
 after-success:
   - coveralls
