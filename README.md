@@ -1,1 +1,1 @@
-# pet_travis
+# pet_travis - [![Coverage Status](https://coveralls.io/repos/github/demroma235/pet_travis/badge.svg)](https://coveralls.io/github/demroma235/pet_travis)
