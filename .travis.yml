@@ -3,8 +3,9 @@ python:
   - "2.7"
 install:
   - pip install python-coveralls
+  - pip install coverage
 script:
   - python -m unittest tests
-  - python setup.py install
 after-success:
+  - coverage report
   - coveralls
