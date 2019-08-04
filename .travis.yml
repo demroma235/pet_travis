@@ -5,6 +5,5 @@ install:
   - pip install python-coveralls
 script:
   - python -m unittest tests
-  - py.test tests.py --doctest-modules --pep8 coveralls -v --cov coveralls --cov-report term-missing
 after-success:
   - coveralls
